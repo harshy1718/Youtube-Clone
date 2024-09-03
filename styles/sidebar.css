@@ -1,0 +1,31 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    z-index: 10;
+    padding-top: 5px;
+}
+.side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    height: 74px;
+    cursor: pointer;
+}
+.side:hover{
+    background-color: rgb(235, 235, 235);
+    
+}
+.home{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 6px;
+}
